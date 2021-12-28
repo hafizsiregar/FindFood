@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".ui.auth.AuthActivity">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="76dp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/imgAuth"
+            android:layout_width="209dp"
+            android:layout_height="166dp"
+            android:src="@drawable/icon_auth"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Find Food"
+        style="@style/TextView.PoppinsNormal18spFF9900"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtAuth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan pilih login \n jika anda sudah memiliki akun"
+        style="@style/TextView.PoppinsNormal12sp020202"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="LOGIN"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        style="@style/Button.Primary"/>
+
+    <Button
+        android:id="@+id/btn_login_google"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        style="@style/Button.Secondary"
+        android:text="Login dengan akun Google"/>
+
+    <TextView
+        android:id="@+id/txtAuth3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="atau \n silahkah daftar jika anda belum mempunyai akun"
+        android:textAlignment="center"
+        style="@style/TextView.PoppinsNormal12sp020202"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        style="@style/Button.Primary"
+        android:textStyle="bold"
+        android:text="Daftar"/>
+
+</LinearLayout>
